@@ -1,3 +1,11 @@
+"""
+    Time complexity:
+        1. Worst and average case: O(n^2) - Bad ordering method should use another technique
+        2 . Good case: O(n)
+
+    Space complexity:
+        1. Worst, average and good case: O(1) - In-place array, don't need extra memory allocation when n growing
+"""
 
 class bubbleSort:
     def __init__(self) -> None:
