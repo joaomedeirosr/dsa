@@ -7,7 +7,7 @@
     4 - Verificar se a pilha está vazia
 """
 class Stack:
-    def __init__(self, array):
+    def __init__(self, array) -> None:
         self.array = array
 
     # Append to top of stack - O(1)
