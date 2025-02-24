@@ -1,5 +1,5 @@
 class BinarySearch:
-    def __init__(self, nums: list[int], target) -> int:
+    def __init__(self, nums: list[int], target) -> None:
         self.nums = nums
         self.target = target
     def searching(self) -> int:
