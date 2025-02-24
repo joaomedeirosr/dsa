@@ -1,5 +1,5 @@
 class TwoPointers:
-    def reverseWord(self, array_input):
+    def reverseWord(self, array_input) -> None:
         reverse_word = " " 
         pointer_init, pointer_end = 0 , 0
 
